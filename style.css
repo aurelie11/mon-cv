@@ -1,0 +1,116 @@
+body{
+	background-image: url(/home/simplon/monCv//fotomelia-31.jpg);
+}
+
+.entete{
+	display: flex;
+	flex-flow: row wrap;
+	border: 5px double #88421D;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 193px;
+	font-family: "Kurale", serif;
+
+}
+
+.entete h1{
+	order: 1;
+	justify-content: flex-start;
+	height: 55px;
+	width: 600px;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 5px;
+	
+
+}
+
+.entete i{
+	margin-right: 10px;
+}
+
+.entete ul{
+	order: 3;
+	height: 105px;
+	width: 250px;
+	list-style-type: none;
+	margin-left: 10px;
+	padding-left: 0;
+	margin-top: 0;
+	
+}
+
+.entete li{
+	margin-bottom: 3px;
+}
+
+
+#cp{
+	margin-left: 25px;
+}
+
+.entete img{
+	order: 2;
+	justify-content: flex-end;
+	border: 1px solid black;
+	height: 190px;
+
+}
+
+
+.contenu{
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 20px;
+
+}
+
+.contenu h3{
+	border: 5px double #88421D;
+	height: 40px;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	padding-left: 5px;
+	font-family: "Kurale", serif;
+
+}
+
+.contenu li{
+	margin-top: 15px;
+	font-family: "Kurale", serif;
+}
+
+.listlogi{
+	display: flex;
+	flex-flow: row wrap;
+	
+}
+
+.listlogi ul{
+	margin-top: 0;
+	margin-right: 150px;
+}
+
+.listlogi li{
+	margin-bottom: 15px;
+
+}
+
+.pied-page{
+	display: flex;
+	flex-flow: row wrap;
+	font-family: "Kurale", serif;
+
+
+}
+.pied-page ul{
+	margin-top: 0;
+	margin-right: 150px;
+}
+
+.pied-page li{
+	margin-bottom: 15px;
+
+
+}
